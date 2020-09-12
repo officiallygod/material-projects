@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+.bg-primary {
+    background-color: #ff5722 !important;
+}
+
+.navbar-brand,
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #fff !important;
+}
+
+.navbar-shrink .navbar-nav li.nav-item a.nav-link:hover {
+    background: #ff7043 !important;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+    background: #ff5722 !important;
+}
+
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
+    color: #ddd !important;
+    background: #d84315 !important;
+}
+
+.btn-orange {
+    color: #fff !important;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    background: #ff5722 !important;
+}
+
+.btn-orange:hover {
+    background: #bf360c !important;
+}
+
+
+.floating-label-form-group-with-focus label {
+
+    color: #ff5722 !important;
+}
+
+.footer-basic ul a:hover {
+    color: #ff5722 !important;
+}
+
+.bg-secondary {
+
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    color: #000 !important;
+}
+
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #222 !important;
+}
+
+
+.navbar-shrink {
+    background-color: white !important;
+}
+
+
+
+.about {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/ryan-quintal-zm42KtKcn9c-unsplash.jpg) !important;
+}
+
+hr.star-light::after {
+    color: transparent;
+    background-color: transparent;
+}
+
+.social-1,
+.social-2,
+.social-4 {
+    transition: all 0.5s ease-in-out;
+}
+
+.social-1:hover {
+
+    background-color: #222;
+    color: white !important;
+}
+
+.social-2:hover {
+
+    background-color: #0E76A8;
+    color: white !important;
+}
+
+.social-4:hover {
+
+    background-color: #1C9CEB;
+    color: white !important;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+    transition: all .5s ease;
+    background-color: rgba(255, 87, 34, .9);
+}
+
+.btn-primary {
+    background-color: #ff5722;
+    border-color: #ff5722;
+    color: white;
+}
+
+.close:not(:disabled):not(.disabled) {
+    color: #ff5722;
+}
+
+.close:not(:disabled):not(.disabled):hover {
+    color: #bf360c;
+}
+
+hr.star-dark::after {
+    color: transparent;
+    background-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: #222;
+    border-color: #222;
+    color: white;
+}
