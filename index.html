@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
 
     <script type="text/javascript" src="assets/js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 </head>
 
 <body id="page-top">
@@ -157,9 +155,11 @@
                                     class="form-text text-danger help-block"></small></div>
                         </div>
                         <div id="success"></div>
-                        <div class="form-group"><button onclick="submitFormFunc()"
-                                class="btn btn-orange btn-primary btn-xl" data-aos="zoom-in-up" id="sendMessageButton"
-                                type="submit">Send</button></div>
+                        <div onclick="submitFormFunc()" class="form-group"><button type="button" id="sendMessageButton"
+                                class="btn btn-orange btn-primary btn-xl" data-aos="zoom-in-up"
+                                href="javascript:void(0)"><a style="text-decoration:none; color: white;"
+                                    href="javascript:void(0)">Send</a></button>
+                        </div>
                     </form>
                 </div>
             </div>

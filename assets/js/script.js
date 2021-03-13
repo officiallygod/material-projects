@@ -1,3 +1,7 @@
+const button = document.getElementById( 'sendMessageButton' )
+
+console.log( button );
+
 async function submitFormFunc() {
 
     var name = document.getElementById( "name" ).value;
@@ -7,7 +11,6 @@ async function submitFormFunc() {
 
     if ( ! name || ! email || ! phone || ! message ) {
 
-        console.log( "EMPTY" );
         window.alert( "Enter all the Fields correctly..." )
     } else {
         const Url = "https://konnect-js.herokuapp.com/konnectsnd";
@@ -32,11 +35,9 @@ async function submitFormFunc() {
             redirect: 'follow'
         };
 
-        console.log( "ELSE" );
 
         fetch( Url, requestOptions ).then( response => {
             response.text();
-            console.log( "WORKED" );
             window.alert( "Thank You for Contacting Me :)" );
         } ).then( result => console.log( result ) ).catch( error => console.log( 'error', error ) );
 
