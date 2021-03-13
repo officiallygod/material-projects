@@ -5,11 +5,6 @@ async function submitFormFunc() {
     var phone = document.getElementById( "phone" ).value;
     var message = document.getElementById( "message" ).value;
 
-    console.log( name );
-    console.log( email );
-    console.log( phone );
-    console.log( message );
-
     if ( ! name || ! email || ! phone || ! message ) {
 
         console.log( "EMPTY" );
