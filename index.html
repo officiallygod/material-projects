@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/style-custom.css">
 
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -131,7 +133,8 @@
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2" data-aos="fade-right">
                                 <label>Name</label><input class="form-control" type="text" id="name" required=""
-                                    placeholder="Name"><small class="form-text text-danger help-block"></small></div>
+                                    placeholder="Name"><small class="form-text text-danger help-block"></small>
+                            </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2" data-aos="fade-right"
@@ -153,8 +156,9 @@
                                     class="form-text text-danger help-block"></small></div>
                         </div>
                         <div id="success"></div>
-                        <div class="form-group"><button class="btn btn-orange btn-primary btn-xl" data-aos="zoom-in-up"
-                                id="sendMessageButton" type="submit">Send</button></div>
+                        <div class="form-group"><button onclick="submitFormFunc()"
+                                class="btn btn-orange btn-primary btn-xl" data-aos="zoom-in-up" id="sendMessageButton"
+                                type="submit">Send</button></div>
                     </form>
                 </div>
             </div>
@@ -167,7 +171,8 @@
             <div class="social"><a class="social-2" href="https://www.linkedin.com/in/allen-benny-863729169/"><i
                         class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/officiallygod" class="social-1"><i class="fab fa-github"></i></a><a
-                    class="social-4" href="#"><i class="fa fa-twitter"></i></a></div>
+                    class="social-4" href="#"><i class="fa fa-twitter"></i></a>
+            </div>
             <!-- End: Social Icons -->
             <!-- Start: Links -->
             <ul class="list-inline">
