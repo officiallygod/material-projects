@@ -3,7 +3,7 @@ html {
 }
 
 .bg-primary {
-    background-color: #ff5722 !important;
+    background-color: #00CCFE !important;
 }
 
 .navbar-brand,
@@ -12,19 +12,19 @@ html {
 }
 
 .navbar-shrink .navbar-nav li.nav-item a.nav-link:hover {
-    background: #ff7043 !important;
+    background: #0098fe !important;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff !important;
     transition: all 0.3s ease-in-out;
-    background: #ff5722 !important;
+    background: #00CCFE !important;
 }
 
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #ddd !important;
-    background: #d84315 !important;
+    background: #0098fe !important;
 }
 
 .btn-orange {
@@ -32,21 +32,21 @@ html {
     border: none;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
-    background: #ff5722 !important;
+    background: #00CCFE !important;
 }
 
 .btn-orange:hover {
-    background: #bf360c !important;
+    background: #0077fe !important;
 }
 
 
 .floating-label-form-group-with-focus label {
 
-    color: #ff5722 !important;
+    color: #00CCFE !important;
 }
 
 .footer-basic ul a:hover {
-    color: #ff5722 !important;
+    color: #00CCFE !important;
 }
 
 .bg-secondary {
@@ -105,21 +105,21 @@ hr.star-light::after {
 
 .portfolio .portfolio-item .portfolio-item-caption {
     transition: all .5s ease;
-    background-color: rgba(255, 87, 34, .9);
+    background-color: #7aa4ff;
 }
 
 .btn-primary {
-    background-color: #ff5722;
-    border-color: #ff5722;
+    background-color: #00CCFE;
+    border-color: #00CCFE;
     color: white;
 }
 
 .close:not(:disabled):not(.disabled) {
-    color: #ff5722;
+    color: #00CCFE;
 }
 
 .close:not(:disabled):not(.disabled):hover {
-    color: #bf360c;
+    color: #0077fe;
 }
 
 hr.star-dark::after {
@@ -131,4 +131,12 @@ hr.star-dark::after {
     background-color: #222;
     border-color: #222;
     color: white;
+}
+
+/* PROJECT VALUE HOVER*/
+
+.project_text {
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 100;
 }
