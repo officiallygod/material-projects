@@ -140,3 +140,14 @@ hr.star-dark::after {
     font-size: medium;
     font-weight: 100;
 }
+
+.loader_div {
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    right: 0%;
+    z-index: 99;
+    display: none;
+    background: url('../img/loader.gif') center center no-repeat;
+}

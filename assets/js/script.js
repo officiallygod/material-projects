@@ -13,6 +13,8 @@ async function submitFormFunc() {
 
         window.alert( "Enter all the Fields correctly..." )
     } else {
+        jQuery( ".loader_div" ).show();
+
         const Url = "https://konnect-js.herokuapp.com/konnectsnd";
 
         const dataObject = {
@@ -39,7 +41,9 @@ async function submitFormFunc() {
         fetch( Url, requestOptions ).then( response => {
             response.text();
             window.alert( "Thank You for Contacting Me :)" );
-        } ).then( result => console.log( result ) ).catch( error => console.log( 'error', error ) );
+        } ).then( result => console.log( result ) ).catch( error => console.log( 'error', error ) ).then( function () {
+            jQuery( ".loader_div" ).hide();
+        } );
 
 
     }
